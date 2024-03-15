@@ -3,8 +3,8 @@ CREATE TABLE students
         first_name  varchar(255) not null,
         last_name   varchar(255) not null,
         email text,
-	 	enrollment_date DATE,
-		primary key (student_id)
+	enrollment_date DATE,
+	primary key (student_id)
     );
 
 INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
